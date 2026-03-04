@@ -1,0 +1,15 @@
+{
+  "name": "synology-photo-tagger",
+  "version": "1.0.0",
+  "description": "Auto-tag photos on Synology NAS using Gemini AI, writes XMP sidecar files for Synology Photos indexing",
+  "main": "tagger.js",
+  "type": "module",
+  "scripts": {
+    "start": "node tagger.js",
+    "dry-run": "node tagger.js --dry-run"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1"
+  }
+}
